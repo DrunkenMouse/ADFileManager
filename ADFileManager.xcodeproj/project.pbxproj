@@ -15,6 +15,7 @@
 		168A03B11DAC6F3D00A0C3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168A03AF1DAC6F3D00A0C3D8 /* LaunchScreen.storyboard */; };
 		168A03BC1DAC6F3D00A0C3D8 /* ADFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168A03BB1DAC6F3D00A0C3D8 /* ADFileManagerTests.m */; };
 		168A03C71DAC6F3D00A0C3D8 /* ADFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168A03C61DAC6F3D00A0C3D8 /* ADFileManagerUITests.m */; };
+		168A03DA1DAC6FE900A0C3D8 /* ADFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 168A03D91DAC6FE900A0C3D8 /* ADFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		168A03C21DAC6F3D00A0C3D8 /* ADFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		168A03C61DAC6F3D00A0C3D8 /* ADFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADFileManagerUITests.m; sourceTree = "<group>"; };
 		168A03C81DAC6F3D00A0C3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168A03D81DAC6FE900A0C3D8 /* ADFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFileManager.h; sourceTree = "<group>"; };
+		168A03D91DAC6FE900A0C3D8 /* ADFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		168A03A01DAC6F3D00A0C3D8 /* ADFileManager */ = {
 			isa = PBXGroup;
 			children = (
+				168A03D41DAC6FAA00A0C3D8 /* FileManager */,
 				168A03A41DAC6F3D00A0C3D8 /* AppDelegate.h */,
 				168A03A51DAC6F3D00A0C3D8 /* AppDelegate.m */,
 				168A03A71DAC6F3D00A0C3D8 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				168A03C81DAC6F3D00A0C3D8 /* Info.plist */,
 			);
 			path = ADFileManagerUITests;
+			sourceTree = "<group>";
+		};
+		168A03D41DAC6FAA00A0C3D8 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				168A03D81DAC6FE900A0C3D8 /* ADFileManager.h */,
+				168A03D91DAC6FE900A0C3D8 /* ADFileManager.m */,
+			);
+			path = FileManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				168A03A91DAC6F3D00A0C3D8 /* ViewController.m in Sources */,
 				168A03A61DAC6F3D00A0C3D8 /* AppDelegate.m in Sources */,
 				168A03A31DAC6F3D00A0C3D8 /* main.m in Sources */,
+				168A03DA1DAC6FE900A0C3D8 /* ADFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
